@@ -18,6 +18,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $routes = array(
+    '/customers/email/(?P<email>.+)' => array(
+        array('get_customer_by_email', WC_API_SERVER::READABLE)
+    )
 );
 
 add_action('woocommerce_api_loaded', 'inject_routes', 0);
