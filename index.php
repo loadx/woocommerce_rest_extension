@@ -6,11 +6,9 @@
  * Version: The Plugin's Version Number, e.g.: 1.0
  * Author: Extensionworks
  * Author URI: http://www.extensionworks.com
- * License: BSD
+ * License: MIT
  */
 require_once(ABSPATH.'wp-content/plugins/woocommerce/includes/api/class-wc-api-server.php');
-/* require_once(ABSPATH.'wp-content/plugins/woocommerce/includes/api/class-wc-api-resource.php'); */
-/* require_once(ABSPATH.'wp-content/plugins/woocommerce/includes/api/class-wc-api-customers.php'); */
 require_once('extensionworks-wc-api-server.php');
 
 if ( ! defined( 'ABSPATH' ) ) {
